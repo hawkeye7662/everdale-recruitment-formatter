@@ -23,7 +23,7 @@ submit.addEventListener('click', async (e) => {
     arrayOfErrors.push('Codes');
   }
   if (!input.match(levelRegex)) {
-    arrayOfErrors.push('Level:');
+    arrayOfErrors.push('Level');
   }
 
   if (arrayOfErrors.length != 0) {
